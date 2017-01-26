@@ -3,14 +3,14 @@ DROP TABLE IF EXISTS artists;
 
 
 
-CREATE TABLE artist (
+CREATE TABLE artists (
 
 id SERIAL4 primary key,
 name varchar(255) 
 
 );
 
-CREATE TABLE album (
+CREATE TABLE albums (
 
 id SERIAL4 primary key,
 title varchar(255),

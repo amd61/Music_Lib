@@ -1,7 +1,7 @@
 
 require('pry-byebug')
-require_relative('./artist')
-require_relative('./album')
+require_relative('./Artists')
+require_relative('./Album')
 
 artist1 = Artist.new({'name' =>'LCD Soundsystem'})
 artist2 = Artist.new({'name' =>'Roy Ayers'})
@@ -9,7 +9,7 @@ artist3 = Artist.new({'name' =>'Gotan Project'})
 
 artist1.save
 artist2.save
-artist2.save
+artist3.save
 
 album1 = Album.new({'title' => 'Sound of Silver', 'genre' => 'dance', 'artist_id' => artist1.id})
 
